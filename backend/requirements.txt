@@ -1,0 +1,38 @@
+# --- Web framework ---
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+
+# --- Data / ORM ---
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+aiosqlite==0.20.0          # sqlite fallback for local dev / tests
+alembic==1.14.0
+pydantic==2.10.3
+pydantic-settings==2.6.1
+email-validator==2.2.0
+
+# --- Security ---
+pyjwt==2.10.1
+passlib[bcrypt]==1.7.4
+cryptography==44.0.0
+
+# --- Cache / queue ---
+redis==5.2.0
+celery==5.4.0
+
+# --- Storage / HTTP ---
+boto3==1.35.71
+httpx==0.28.1
+
+# --- Reports / files ---
+openpyxl==3.1.5
+reportlab==4.2.5
+Pillow==11.0.0
+
+# --- Observability ---
+structlog==24.4.0
+
+# --- Tests ---
+pytest==8.3.4
+pytest-asyncio==0.24.0

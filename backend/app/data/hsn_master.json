@@ -1,0 +1,30 @@
+{
+  "_comment": "Representative HSN/SAC -> GST rate master for the MVP rule engine (FR-003, FR-005). In production this is a maintained, versioned table reflecting CBIC notifications.",
+  "items": [
+    {"hsn": "1006", "description": "Rice", "gst_rate": 5},
+    {"hsn": "1701", "description": "Sugar", "gst_rate": 5},
+    {"hsn": "1905", "description": "Bread, biscuits, bakery", "gst_rate": 18},
+    {"hsn": "0401", "description": "Milk and cream", "gst_rate": 0},
+    {"hsn": "2106", "description": "Food preparations (namkeen etc.)", "gst_rate": 12},
+    {"hsn": "2202", "description": "Aerated/beverage waters", "gst_rate": 28},
+    {"hsn": "3004", "description": "Medicaments", "gst_rate": 12},
+    {"hsn": "3304", "description": "Cosmetics / beauty preparations", "gst_rate": 18},
+    {"hsn": "3401", "description": "Soap", "gst_rate": 18},
+    {"hsn": "3923", "description": "Plastic packing articles", "gst_rate": 18},
+    {"hsn": "4820", "description": "Registers, notebooks, stationery", "gst_rate": 18},
+    {"hsn": "6109", "description": "T-shirts, singlets (apparel <= 1000)", "gst_rate": 5},
+    {"hsn": "6203", "description": "Men's suits/trousers (apparel)", "gst_rate": 12},
+    {"hsn": "6403", "description": "Footwear", "gst_rate": 18},
+    {"hsn": "7308", "description": "Iron/steel structures (hardware)", "gst_rate": 18},
+    {"hsn": "7323", "description": "Household steel articles", "gst_rate": 12},
+    {"hsn": "8413", "description": "Pumps", "gst_rate": 18},
+    {"hsn": "8504", "description": "Electrical transformers / chargers", "gst_rate": 18},
+    {"hsn": "8517", "description": "Telephones / smartphones", "gst_rate": 18},
+    {"hsn": "8528", "description": "Monitors / televisions", "gst_rate": 28},
+    {"hsn": "9403", "description": "Furniture", "gst_rate": 18},
+    {"hsn": "9961", "description": "Services - trading (SAC)", "gst_rate": 18},
+    {"hsn": "9963", "description": "Accommodation, food & beverage services (SAC)", "gst_rate": 5},
+    {"hsn": "9983", "description": "Professional / technical services (SAC)", "gst_rate": 18},
+    {"hsn": "9971", "description": "Financial services (SAC)", "gst_rate": 18}
+  ]
+}
