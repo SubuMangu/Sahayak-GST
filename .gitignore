@@ -37,3 +37,6 @@ storage/
 htmlcov/
 .coverage
 coverage/
+.claude/
+graphify-out/
+CLAUDE.md
