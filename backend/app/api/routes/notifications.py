@@ -58,7 +58,7 @@ async def mark_all_read(
     return MessageOut(message="all marked read")
 
 
-@router.post("/run-due-reminders", response_model=MessageOut)
+@router.api_route("/run-due-reminders", methods=["GET", "POST"], response_model=MessageOut)
 async def run_due_reminders(db: AsyncSession = Depends(get_db)):
     """Trigger due-date reminders (US-03). Scheduled daily by the Celery beat worker.
 
